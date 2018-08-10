@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+  <html lang="en" dir="ltr">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="sogra_css.css">
+        <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+      <script type="text/javascript" src="sogra_js.js"></script>
+      <title></title>
+    </head>
+    <body style="overflow-x: hidden; overflow-y: hidden">
+      <img id ="background4" src="img/background5.jpg" alt="">
+      <div>
+         <img src="img/prison.png" alt="" id="prison_3" onclick="prison2()">
+      </div>
+
+       <img src="img/page.png" alt="" id="page_2" >
+      <div id="clue" onclick="clue()"></div>
+      <div id="clue_2" onclick="clue2()"></div>
+      <div id="clue_3" onclick="fake()" ></div>
+
+      <img id="lion3" src="img/lion2.png" alt="">
+
+      <p id="firsttalk3" style="display:none" ><button id="firstNext3"></button><br/><br/>&nbsp; &nbsp; &nbsp; &nbsp;우와!!..이제나갈수있겠다.. 살려주세요!!!!<br/> &nbsp; &nbsp; &nbsp; &nbsp;저 철창은 또 뭐야...ㅡㅡ?</p>
+
+
+      <div id="questionBox5" style="display:none">
+          <p class="question_"> <img id="question_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><br/><strong>힝 속았지!!? <br/>마지막 stage는 <br/>문제가 1개!  </strong> </p>
+      </div>
+
+      <div id="questionBox6" style="display:none">
+          <p class="question_"> <img id="question_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><strong>9981 + 1601 = 2957<br/><br/>1080 + 9168 = ?<br/>정답 4자리 숫자!<br/>자판기 위에 뭐가있네!?</strong></p>
+      </div>
+
+      <div id="HintBox5" style="display:none">
+          <p class="Hint_"><img id="Hint_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><br/><strong>거꾸로 읽어봐~ </strong></p>
+      </div>
+
+      <div id="horror1_box" style="display:none">
+        <img src="img/horror1.jpg" alt="" onclick="delete_horror(event)">
+      </div>
+      <div id="horror2_box" style="display:none">
+        <img src="img/horror2.jpg" alt="" onclick="delete_horror(event)">
+      </div>
+      <div id="horror3_box" style="display:none">
+        <img src="img/horror3.jpg" alt="" onclick="delete_horror(event)">
+      </div>
+
+      <div id="enter_pwd5" style="display:none;">
+        <img src="img/delete.png" alt="" id="close_enter_pwd" onclick="close_enter_pwd(event)">
+        <button type="button" id="pwd_1_button" name="pwd_1_button" onclick="pwd_1_change()">0</button>
+        <button type="button" id="pwd_2_button" name="pwd_2_button" onclick="pwd_2_change()">0</button>
+        <button type="button" id="pwd_3_button" name="pwd_3_button" onclick="pwd_3_change()">0</button>
+        <button type="button" id="pwd_4_button" name="pwd_4_button" onclick="pwd_4_change()">0</button>
+
+        <input type="button" id="submit_pwd" value="확인" onclick="submit_pwd5()">
+      </div>
+
+      <embed src="back.mp3" autostart="true" loop="true" hidden="true"></embed>
+
+    </body>
+  </html>

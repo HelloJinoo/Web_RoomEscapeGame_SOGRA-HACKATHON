@@ -1,0 +1,512 @@
+/*-----------------전체 적용----------------------------*/
+*{padding: 0; margin: 0;}
+#question_img_x {
+  position: absolute;
+  left:200px;
+  top:10px;
+}
+#Hint_img_x{
+  position: absolute;
+  left:130px;
+}
+.question_{
+  background-image: url("img/question.png");
+  width: 205px;
+  height: 175px;
+  padding: 0px 43px;
+  word-break: break-all;
+}
+.Hint_{
+  background-image: url("img/Hint.png");
+  width: 185px;
+  height: 138px;
+  word-break: break-all;
+  padding: 0px 5px;
+}
+
+#close_enter_pwd{
+  position: relative;
+  left:292px;
+}
+#pwd_1_button {
+  position: relative;
+  top: 90px;
+  left: -47px;
+  width: 65px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#pwd_2_button {
+  position: relative;
+  top: 90px;
+  left: -39px;
+  width: 65px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#pwd_3_button {
+  position: relative;
+  top: 90px;
+  left: -28px;
+  width: 65px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#pwd_4_button {
+  position: relative;
+  top: 90px;
+  left: -18px;
+  width: 65px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#submit_pwd {
+  position: relative;
+  top: 135px;
+  left: -66px;
+  width: 40px;
+  height: 20px;
+}
+
+#horror1_box {
+  z-index: 10;
+  position: absolute;
+  top:100px;
+  left:150px;
+  width: 1455px;
+  height: 671px;
+}
+#horror2_box {
+  z-index: 10;
+  position: absolute;
+  top:100px;
+  left:150px;
+  width: 1455px;
+  height: 671px;
+}
+#horror3_box {
+  z-index: 10;
+  position: absolute;
+  top:100px;
+  left:150px;
+  width: 1455px;
+  height: 671px;
+}
+
+
+/*-----------------------page1-----------------------*/
+#background{
+  width: 2850px;
+  height: 850px;
+}
+#start{
+  position: absolute;
+  left: 620px;
+  top:450px;
+ width: 150px;
+ height: 80px;
+ background-color:black;
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ font-family:cursive;
+ opacity: 0.5;
+ cursor: pointer;
+}
+#st{
+  opacity: 1.0;
+}
+#end{
+  position: absolute;
+  left: 620px;
+  top: 540px;
+ width: 150px;
+ height: 80px;
+ background-color:black;
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ font-family:cursive;
+ opacity: 0.5;
+ cursor: pointer;
+}
+
+/*-----------------------page2-----------------------*/
+#img_2{width: 2776px; height: 930px; top:0px;}
+#div_bagae{width: 100px; height:140px; position:absolute; left: 530px; z-index: 5; top: 260px; cursor: pointer;} /*문제*/
+#div_byungi{width: 80px; height:40px; position:absolute; left: 240px; z-index: 5; top: 200px; cursor: pointer;} /*힌트*/
+#div_bed{width: 120px; height:120px; position:absolute; left: 1080px; z-index: 5; top: 210px; cursor: pointer;} /*힌트*/
+#div_pwd{width: 100px; height:350px; position:absolute; left: 1250px; z-index: 5; top: 210px; cursor: pointer;} /*탈출경로*/
+#div_sink{width: 90px;height: 150px;position:absolute; left: 169px; z-index: 5; top: 515px; cursor: pointer;} /*문제*/
+
+
+#questionBox1{
+  position: absolute;
+  left: 600px;
+  top:300px;
+  z-index: 3;
+}
+
+#questionBox2{
+  position: absolute;
+  left: 30px;
+  top:370px;
+  z-index: 3;
+}
+
+#HintBox1{
+  position: absolute;
+  left: 180px;
+  top:90px;
+  z-index: 3;
+}
+#HintBox2{
+  position: absolute;
+  left: 1050px;
+  top:100px;
+  z-index: 3;
+}
+
+#lion{ z-index: 1;
+   position:absolute; left: 530px; top:130px; opacity: 0.9;}
+#firsttalk{
+    z-index: 2; position:absolute;
+    left:470px;
+    top:520px;
+    background-image: url("img/story.png");
+    width:800px;
+    height: 100px;
+    background-repeat:no-repeat;
+    padding: 30px 30px;
+}
+#firstNext{
+  border-radius:8px;
+  background-image: url("img/down.png");
+  width: 28px;
+  height: 28px;
+  z-index: 3;
+  position:absolute;
+  left: 650px;
+}
+#secondtalk{
+  z-index: 2;
+  background-image: url("img/talkbox2.png");
+  background-repeat:no-repeat;
+  padding:30px 30px;
+  width: 150px;
+  height: 100px;
+  position: absolute;
+  left: 780px;
+  top: 200px;
+  opacity: 0.9;
+}
+
+
+#enter_pwd2{
+  background-image: url("img/enter_password.png");
+  background-repeat: no-repeat;
+  width:500px;
+  height: 300px;
+  position: absolute;
+  right:5px;
+  top: 350px;
+  z-index: 5;
+}
+
+/*-----------------------page3-----------------------*/
+
+#div_Box{
+  position: absolute;
+  width: 80px;
+  height: 50px;
+  left:740px;
+  top:550px;
+  z-index: 3;
+  cursor: pointer;
+}
+#box{
+  position: absolute;
+  left:710px;
+  top: 440px;
+  width: 200px;
+  z-index: 3;
+}
+
+#page{
+  width:40px;
+  position: absolute;
+  left: 770px;
+  top:540px;
+  z-index: 4;
+
+   }
+#div_door{
+  position: absolute;
+  left:410px;
+  top: 250px;
+  width: 40px;
+  height: 30px;
+    cursor: pointer;
+}
+
+#div_shoe{
+  width: 28px;
+  height: 80px;
+   position: absolute;
+   left:495px;
+  top: 370px;
+    cursor: pointer;
+  }
+#div_wall{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 140px;
+  top: 220px;
+  cursor: pointer;
+}
+#div_prison{
+
+  opacity: 0.8;
+  position: absolute;
+  width: 120px;
+  height: 100px;
+  left: 562px;
+  top:330px;
+  z-index: 3;
+  cursor: pointer;
+}
+#lion2{
+  position: absolute;
+  left: 100px;
+  width: 250px;
+  bottom: 0px;
+  height: 200px;
+  z-index: 3;
+}
+#firsttalk2{
+  background-image: url("img/story.png");
+  z-index: 3;
+  position: absolute;
+  left: 400px;
+  bottom:20px;
+  width: 720px;
+  height: 135px;
+}
+#firstNext2{
+  border-radius:8px;
+  background-image: url("img/down.png");
+  width: 28px;
+  height: 28px;
+  top:20px;
+  z-index: 4;
+  position:absolute;
+  left: 650px;
+}
+
+#questionBox3{
+  position: absolute;
+  left:480px;
+  top:260px;
+  z-index: 3;
+  font-weight: bold;
+}
+#questionBox4{
+  position: absolute;
+  left: 1050px;
+  top:100px;
+  z-index: 3;
+  font-weight: bold;
+}
+#wallQuestion{
+  background-image: url("img/wall.png");
+
+  border-radius:30px;
+  width: 280px;
+  height: 220px;
+  position: absolute;
+  right: 660px;
+  top: 100px;
+  opacity: 0.7;
+  color:white;
+  text-align: center;
+}
+
+#HintBox3{
+  position: absolute;
+  left: 350px;
+  top:100px;
+  z-index: 3;
+  z-index: 3;
+  font-weight: bold;
+  text-align: center;
+}
+#HintBox4{
+  position: absolute;
+  left: 280px;
+  top:310px;
+  z-index: 3;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+#enter_pwd3{
+  background-image: url("img/enter_password.png");
+  background-repeat: no-repeat;
+  width:500px;
+  height: 300px;
+  position: absolute;
+  left: 440px;
+  top: 250px;
+  z-index: 5;
+}
+
+
+/*--------------------page4-------------------------*/
+#stair_lion{
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 2;
+  left:550px;
+  top:450px;
+}
+
+
+
+/*-------------------page5----------------------*/
+
+#lion3{
+  position: absolute;
+  left: 100px;
+  width: 250px;
+  bottom: 0px;
+  height: 200px;
+  z-index: 3;
+}
+#firsttalk3{
+  background-image: url("img/story.png");
+  z-index: 3;
+  position: absolute;
+  left: 400px;
+  bottom:20px;
+  width: 720px;
+  height: 135px;
+}
+#firstNext3{
+  border-radius:8px;
+  background-image: url("img/down.png");
+  width: 28px;
+  height: 28px;
+  top:20px;
+  z-index: 4;
+  position:absolute;
+  left: 650px;
+}
+
+#background4{
+  width: 1366px;
+  height: 700px;
+
+}
+#questionBox5{
+  position: absolute;
+  left: 90px;
+  top:370px;
+  z-index: 3;
+
+  text-align: center;
+}
+
+#questionBox6{
+  position: absolute;
+  left: 1000px;
+  top:370px;
+  z-index: 3;
+
+  text-align: center;
+}
+
+#HintBox5{
+  position: absolute;
+  left: 1050px;
+  top:100px;
+  z-index: 3;
+
+  text-align: center;
+}
+#prison_3{opacity:0.7; position: absolute; left: 430px; top: 170px; height: 180px; width: 500px; cursor: pointer;}
+#clue{width: 120px; height: 30px; position: absolute; left: 1050px; top: 430px; cursor: pointer;}
+#clue_2{width: 120px; height: 30px; position: absolute; left: 970px; top: 200px; cursor: pointer;}
+#clue_3{width: 35px; height: 35px; position: absolute; left: 99px; top: 426px; cursor: pointer;}
+#page_2{width: 30px; height: 30px; position: absolute; left: 100px; top: 430px; cursor: pointer;}
+
+
+#enter_pwd5{
+  background-image: url("img/enter_password.png");
+  background-repeat: no-repeat;
+  width:500px;
+  height: 300px;
+  position: absolute;
+  right:350px;
+
+  top: 160px;
+  z-index: 5;
+}
+
+/*---------last----------------*/
+
+#last_escape {
+  width: 100%;
+  height: 662px;
+}
+#last_stand_lion{
+  height: 250px;
+  position: absolute;
+  top:242px;
+  left:700px;
+}
+#lasttalk{
+  background-image: url("img/talkbox3.png");
+  z-index: 2;
+  position: absolute;
+  left: 880px;
+  bottom:350px;
+  width: 165px;
+  height: 80px;
+  text-align: center;
+  padding: 8px;
+}
+/*-----------real last---------------------*/
+#lion4{position: absolute; top: 360px; left: 300px;}
+#lasttalk2{
+  background-image: url("img/talkbox3.png");
+  z-index: 2;
+  position: absolute;
+  left: 580px;
+  bottom:200px;
+  width: 165px;
+  height: 80px;
+  text-align: center;
+  padding: 8px;
+}
+#next_year{
+   width:150px;
+   height:50px;
+   border-radius: 10px;
+   position: absolute;
+   right: 20px;
+   bottom:20px;
+   z-index: 1;
+   opacity: 0.7;
+}

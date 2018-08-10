@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="sogra_css.css">
+  <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+  <script src="sogra_js.js">
+  </script>
+
+</head>
+
+<body style="overflow-x: hidden; overflow-y: hidden">
+  <img id="img_2" src="img/gd.png">
+  <div id="div_bagae" onclick="bagae()"></div>
+  <div id="div_byungi" onclick="byungi()"> </div>
+  <div id="div_bed" onclick="bed()"></div>
+  <div id="div_pwd" onclick="pwd()"></div>
+  <div id="div_sink" onclick="sink()"></div>
+
+  <img id="lion" src="img/lion_x.png"></img>
+
+  <div id="questionBox1" style="display:none">
+    <p class="question_"> <img id="question_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><br/><strong>&nbsp;5 + 3 = 28 &nbsp;&nbsp;&nbsp;9 + 1 = 810<br/>&nbsp;8 + 6 = 214&nbsp;&nbsp;&nbsp;5 + 4 = 19<br/>&nbsp;6 + 3 = ?&nbsp;&nbsp;<br/>침대가 수상하다...</strong></p>
+  </div>
+
+  <div id="questionBox2" style="display:none">
+    <p class="question_"> <img id="question_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><strong>&nbsp; &nbsp;+ → 01 , &nbsp; &nbsp; & → 02<br/> &nbsp; &nbsp; $ → 03 , &nbsp; % → ? <br/> &nbsp; 아 쉬마려~</strong></p>
+  </div>
+
+  <div id="HintBox1" style="display:none">
+    <p class="Hint_"><img id="Hint_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><strong><br/>&nbsp; &nbsp; &nbsp; crossing point</strong></p>
+  </div>
+
+  <div id="HintBox2" style="display:none">
+    <p class="Hint_"> <img id="Hint_img_x" src="img/delete.png" onclick="closequestion(event)"><br/><br/><strong><br/>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;5 - 3 = 2</strong></p>
+  </div>
+
+  <div id="horror1_box" style="display:none">
+    <img src="img/horror1.jpg" alt="" onclick="delete_horror(event)">
+  </div>
+  <div id="horror2_box" style="display:none">
+    <img src="img/horror2.jpg" alt="" onclick="delete_horror(event)">
+  </div>
+  <div id="horror3_box" style="display:none">
+    <img src="img/horror3.jpg" alt="" onclick="delete_horror(event)">
+  </div>
+
+  <p id="firsttalk"><button id="firstNext"></button><br/>&nbsp; &nbsp; &nbsp; &nbsp; (부스럭...부스럭...) 여기는 어디지....? 나는왜 갇혀있는거야....<br/></p>
+
+  <p id="secondtalk" style="display:none">아 깜짝이야!!!! 여기서 탈출해야해...베개 밑에 이게 뭐지?</p>
+
+
+
+  <div id="enter_pwd2" style="display:none;">
+    <img src="img/delete.png" alt="" id="close_enter_pwd" onclick="close_enter_pwd(event)">
+    <button type="button" id="pwd_1_button" name="pwd_1_button" onclick="pwd_1_change()"></button>
+    <button type="button" id="pwd_2_button" name="pwd_2_button" onclick="pwd_2_change()"></button>
+    <button type="button" id="pwd_3_button" name="pwd_3_button" onclick="pwd_3_change()"></button>
+    <button type="button" id="pwd_4_button" name="pwd_4_button" onclick="pwd_4_change()"></button>
+
+    <input type="button" id="submit_pwd" value="확인" onclick="submit_pwd2()">
+  </div>
+
+
+  <embed src="back2.mp3" autostart="true" loop="true" hidden="true"></embed>
+</body>
+
+</html>
