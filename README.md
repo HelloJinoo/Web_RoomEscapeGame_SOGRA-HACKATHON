@@ -5,3 +5,5 @@
 
 #### *수상 내역*
 ##### &nbsp; 2018 SOGRA HACKTON 우수상(2등)
+
+###### 관련 링크 <https://www.facebook.com/SOGRAhackerthon2018/>
