@@ -1,4 +1,4 @@
-# Web_RoomEscapeGame_SOGRA-HACKATON
+# Web_RoomEscapeGame_SOGRA-HACKATHON
 ---
 #### 2018 충남대학교 ARGOS동아리에서 진행된 SOGRA HACKATHON에서 진행한
 #### HTML5, CSS3, Javascript를 이용한 Web에서 진행되는 방탈출 게임입니다.
